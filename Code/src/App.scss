@@ -1,0 +1,152 @@
+
+$primary:#005FED;
+$secondry:#052452;
+$black:#2F2E41;
+$gray:#CDC9C9;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+body{
+  font-family:Inter;
+}
+
+a{
+  color:#61606E !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+  font-weight:800;
+  color:$secondry;
+  text-align: left;
+  letter-spacing: -.7px;
+
+  span{
+    color:$primary;
+    cursor: pointer;
+  }
+}
+
+h6{
+  font-weight: 500;
+}
+
+
+.btn-primary{
+  border-radius: 0.25rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+form{
+
+  label{
+    color:$black;
+  }
+
+  .form-control{
+  border-color:$gray;
+  }
+
+}
+
+.signin-page{
+height: 100vh;
+justify-content: center;
+>div{
+  padding: 60px;
+}
+
+.sign-in-group{
+  max-width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  @media (max-width:570px) {
+    max-width: 300px;
+  }
+}
+}
+
+.signin-info{
+  background-color: #F7FAFE;
+}
+
+.carousel {
+
+  padding-top: 90px;
+
+.carousel-caption{
+  position: static;
+     right: 0;
+   bottom: 0; 
+    left: 0;
+    z-index: 0;
+    color:$secondry;
+    padding-top: 50px;
+    text-align: left;
+
+}
+
+.carousel-indicators{
+  justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    bottom: -40px;
+
+  li{
+    background-color:$primary;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+}
+}
+
+.socail-media{
+  img{
+    border: 1px solid #CDC9C9;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    flex-grow: 1;
+    height: 40px;
+    padding: 9px;
+    margin-right: 10px;
+
+    &:last-of-type{
+      margin-right: 0;
+    }
+
+  }
+}
+
+
+.signin-para{
+  font-weight: 600;
+  color:$black;
+}
+
+
+.line-wrap{
+  position: relative;
+  margin: 30px 0;
+  margin-bottom: 20px;
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #E0E0E0;
+  margin-top: 10px
+}
+span{
+  position: absolute;
+    left: 45%;
+    top: -11px;
+    background-color: #fff;
+    width: 30px;
+}
+}
+
