@@ -23,7 +23,7 @@ function App() {
         <Col className="signin-info">
           <img src={logo} alt="skydrive" />
 
-          <Carousel fade>
+          <Carousel>
             <Carousel.Item>
               <img src={slider1} alt="" />
               <Carousel.Caption>
